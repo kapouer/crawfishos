@@ -153,7 +153,6 @@ prawnos_mesa_prebuilt_install=(
 # packages built by prawnos, to be installed when running InstallPrawnOS
 prawnos_base_debs_prebuilt_download=(
     prawnos-general-config
-    lagrange-gemini-browser
 )
 
 # packages built by prawnos, to be installed at build time
@@ -166,8 +165,6 @@ prawnos_base_debs_prebuilt_install=(
 # packages built by prawnos, to be installed when running InstallPrawnOS
 # and choosing xfce
 prawnos_xfce_debs_prebuilt_download=(
-    prawnos-xfce-config
-    libinput-gestures
 )
 
 # packages installed for all GUI installs (gnome/lxqt/xfce):
